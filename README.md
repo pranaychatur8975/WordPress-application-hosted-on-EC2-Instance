@@ -70,11 +70,79 @@ FLUSH PRIVILEGES;
 ````
 #### Install WordPress in EC2 Instance: 
 Download WordPress: 
+````
+wget https://wordpress.org/latest.tar.gz
+````
+````
+tar -xvf latest.tar.gz
+````
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/2b21bf5f-eef0-471e-bb26-473c8b857c34" />
+
+then Move the WordPress files to the Apache root directory
+````
+mv wordpress/ /var/www/html/
+````
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/a5ff4d50-3542-4dbe-b4d1-40ad49a9c98e" />
+
+Set appropriate permissions: 
+````
+chown -R www-data:www-data /var/www/html/
+````
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/5e7c19b9-84f1-4124-8e0e-2b2461e89882" />
+
+Rename the sample configuration file
+````
+mv /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+````
+<img width="372" alt="image" src="https://github.com/user-attachments/assets/82199c5f-8c20-4797-98d0-bce143f26796" />
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/4892ba27-2138-40db-8666-8e2d011c9173" />
+````
+vim /var/www/html/wordpress/wp-config.php
+````
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/71443269-47be-4a48-8943-9b572956c143" />
+
+#### Edit the configuration file: 
+Enter your MySQL database details (database name, username, password).
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/f4d6e467-c220-4328-a2a5-fbff05460035" />
+
+#### Restart the Apache web server to apply the changes. 
+
+````
+systemctl restart apache2
+````
+
+#### Complete WordPress Installation: 
+Open your web browser and navigate to your server's IP address or domain name. Follow the on-screen instructions to complete the WordPress installation by providing site information, creating an admin account, and so on.  
+
+- HIT PUBLIC IP of Instance
+
+````
+http://<public ip of ec2 instance>/wordpress/
+````
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/2522e6e7-48b7-48f2-9717-ec8cef33387e" />
+
+#### Create user 
+Fill all the details to create wordpress user.
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/d29fd1e7-3807-479c-93a2-0b167761c429" />
 
 
+<img width="469" alt="image" src="https://github.com/user-attachments/assets/7404417a-ffa0-4bec-8514-27dc71d85db9" />
+
+#### Sample of created user: 
 
 
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/0f90e079-0685-48a8-93d5-4d0959a7a747" />
 
+#### Creation of blog By logging into wordpress you can create blog.
+
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/1c290577-c950-4bf5-9333-e178741f7a1d" />
+
+
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/e01d9562-1878-4caf-8192-ec6444012843" />
 
 
 
