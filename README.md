@@ -37,8 +37,8 @@ mysql_secure_installation
 
 ### Follow the prompts to set a root password and secure your installation:
 
-#### List
--Enter current password for root: Press return for none 
+#### 
+- Enter current password for root: Press return for none 
 - Change Root Password: Y 
 - New Password: Enter your new password 
 - Remove anonymous user: Y 
