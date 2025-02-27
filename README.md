@@ -53,10 +53,20 @@ You will be prompted for the password that you set for the root account when you
 ````
 mysql -u root -p
 `````
+#### Create a new database that WordPress can control. You can call this whatever you would like, but I will be calling it WordPress for this example. 
 
-
-
-
+Create a new MySQL user account that we will use exclusively to operate on WordPress’s new database. Creating one-function databases and accounts is a good idea, as it allows for better control of permissions and other security needs. 
+TYPE BELOW COMMANDS: 
+````
+ CREATE DATABASE wordpress; 
+````
+````
+CREATE USER 'wordpressuser'@localhost IDENTIFIED BY 'Testpassword@123'; 
+````
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@localhost;
+````
+````FLUSH PRIVILEGES;
+````
 
 
 
