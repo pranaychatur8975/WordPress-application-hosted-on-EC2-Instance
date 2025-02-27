@@ -28,9 +28,20 @@ apt install php libapache2-mod-php php-mysql -y
 
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/58b08203-d103-4d50-8dcb-d8b8c0915bbf" />
 
-###Configure MySQL: 
+### Configure MySQL: 
 Secure your MySQL installation: 
-
+````
+mysql_secure_installation 
+````
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/e255fade-f82f-4805-b4cb-cb3b1cbf4278" />
+### Follow the prompts to set a root password and secure your installation:
+• Enter current password for root: Press return for none 
+• Change Root Password: Y 
+• New Password: Enter your new password 
+• Remove anonymous user: Y 
+• Disallow root login remotely: Y 
+• Remove test database and access to it: Y 
+• Reload privilege tables now: Y 
 
 
 
