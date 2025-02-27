@@ -21,3 +21,25 @@ apt install mysql-server -y
 ````
 
 <img width="375" alt="image" src="https://github.com/user-attachments/assets/ea8ba0f8-80b6-4d78-95a2-ee097bc6956d" />
+
+````
+apt install php libapache2-mod-php php-mysql -y
+````
+
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/58b08203-d103-4d50-8dcb-d8b8c0915bbf" />
+
+###Configure MySQL: 
+Secure your MySQL installation: 
+
+
+
+
+
+
+
+
+
+
+
+
+
