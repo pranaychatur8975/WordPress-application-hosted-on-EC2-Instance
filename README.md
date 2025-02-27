@@ -69,6 +69,7 @@ GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@localhost;
 FLUSH PRIVILEGES;
 ````
 <img width="373" alt="image" src="https://github.com/user-attachments/assets/dc788a5a-6676-4035-ad6b-55128e114ff5" />
+
 #### Install WordPress in EC2 Instance: 
 Download WordPress: 
 
