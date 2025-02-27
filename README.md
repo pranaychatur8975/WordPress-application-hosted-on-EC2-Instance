@@ -65,6 +65,7 @@ CREATE USER 'wordpressuser'@localhost IDENTIFIED BY 'Testpassword@123';
 ````
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@localhost;
 ````
+
 ````
 FLUSH PRIVILEGES;
 ````
