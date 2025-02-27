@@ -50,7 +50,6 @@ mysql_secure_installation
 
 #### To get started, log into MySQL’s root (administrative) account by issuing this command: 
 You will be prompted for the password that you set for the root account when you installed MySQL. Once that password is submitted, you will be given a MySQL command prompt. 
-
 ````
 mysql -u root -p
 `````
