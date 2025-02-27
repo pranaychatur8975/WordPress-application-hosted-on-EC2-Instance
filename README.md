@@ -35,6 +35,7 @@ mysql_secure_installation
 ````
 <img width="373" alt="image" src="https://github.com/user-attachments/assets/e255fade-f82f-4805-b4cb-cb3b1cbf4278" />
 ### Follow the prompts to set a root password and secure your installation:
+
 #### List
 • Enter current password for root: Press return for none 
 • Change Root Password: Y 
