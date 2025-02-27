@@ -9,3 +9,15 @@ apt update -y
 ````
 
 <img width="378" alt="image" src="https://github.com/user-attachments/assets/c64d5c62-28ee-4360-aa68-b140425cf24e" />
+
+````
+apt install apache2 -y 
+````
+
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/3e0d2a4a-0448-42aa-985d-859c666b8100" />
+
+````
+apt install mysql-server -y
+````
+
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/ea8ba0f8-80b6-4d78-95a2-ee097bc6956d" />
