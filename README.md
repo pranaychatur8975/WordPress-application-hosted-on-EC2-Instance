@@ -96,9 +96,12 @@ Rename the sample configuration file
 ````
 mv /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
 ````
+
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/82199c5f-8c20-4797-98d0-bce143f26796" />
 
+
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/4892ba27-2138-40db-8666-8e2d011c9173" />
+
 ````
 vim /var/www/html/wordpress/wp-config.php
 ````
