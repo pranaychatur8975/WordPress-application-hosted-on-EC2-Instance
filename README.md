@@ -74,6 +74,7 @@ Download WordPress:
 ````
 wget https://wordpress.org/latest.tar.gz
 ````
+This will download a compressed archive file that contains all of the WordPress files that we need. We can extract the archived files to rebuild the WordPress directory with tar
 ````
 tar -xvf latest.tar.gz
 ````
